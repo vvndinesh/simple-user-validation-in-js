@@ -1,0 +1,42 @@
+**vadada venkata naga dinesh**
+**Git hub user id vvndinesh**
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function username() {
+			// body...
+			var user = document.getElementById("text1").value;
+			alert("The user name you entered is " + "" + user);
+			
+			var choice = document.getElementById("rd1");
+		    var choice2 = document.getElementById("rd2");
+
+		    if (rd1.checked == true) 
+		    {
+               alert("your gender is " + "" + choice.value);
+		    }
+		    else if (rd2.checked==true)
+		    {
+		    	alert("your gender is : " + "" + choice2.value);
+		    }
+		    else
+		    {
+		    	alert("please select your gender :" + " " + user)
+		    }
+		}
+	</script>
+      <input type="text" name="text" id="text1" placeholder="enter user name">
+      <br>
+      <br>
+      <input type="radio" id="rd1" name="grp1" value="male">male</input><br><br>
+      <input type="radio" name="grp1" id="rd2" value="female">female</input>
+      <br>
+      <br>
+      <button id = "btn 1" onclick="username()">click me</button>
+</body>
+</html>
